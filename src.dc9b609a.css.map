@@ -1,0 +1,1 @@
+{"version":3,"sources":["sass/utils/_fonts.scss"],"names":[],"mappings":"AAAA,WACE,oBAAA,CACA,6EAAA,CACA,eAAA,CACA,iBAAA,CACA","file":"src.dc9b609a.css","sourceRoot":"../src","sourcesContent":["@font-face {\n  font-family: 'Cera-Pro';\n  src: url('../../fonts/CeraPro-Bold.woff') format('woff');\n  font-weight: 700;\n  font-display: swap;\n  font-style: normal;\n}\n"]}
