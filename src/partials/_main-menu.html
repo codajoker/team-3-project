@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+    <header class="header container">
+        <div class="header-container">
+            <div class="mobile-nav">
+                <div class="logo">
+
+                </div>
+                <button type="button" class="mobile-menu__btn btn" data-menu-open>
+                    <svg class="mobile-menu__icon">
+                        <use href="./images/sprite.svg#icon-burger-menu_32x32"></use>
+                    </svg>
+                </button>
+                <div class="contact">
+                    <button type="button" class="contact-btn btn" data-menu-open>
+                        <svg class="contact-btn__icon">
+                            <use href="./images/sprite.svg#icon-phone_24x24"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="leng">
+
+                </div>
+            </div>
+
+            <nav class="menu">
+                <ul class="menu__list list">
+                    <li class="menu__item">
+                        <a href="" class="menu__link">Головна</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">Послуги</a>
+                        <ul class="services-menu__list list">
+                            <li class="menu__services-item">
+                                <a href="" class="services-menu__link">3D Моделювання</a>
+                            </li>
+                            <li class="menu__services-item">
+                                <a href="" class="services-menu__link">3D Сканування</a>
+                            </li>
+                            <li class="menu__services-item">
+                                <a href="" class="services-menu__link">3D Друк</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">Замовити</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">Контакти</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+
+            <ul class="menu-contact list">
+                <li class="menu-contact__link">
+                    <a class="mail-link link header-link" href="tell:+380936432288">
+                        <svg class="contact-link-item header-link" width="16px" height="12px">
+                            <use href="./images/sprite.svg#icon-phone_24x24"></use>
+                        </svg>
+                        +38 (093) 643 22 88
+                    </a>
+                </li>
+                <li class="menu-contact__link">
+                    <a class="tel-link link header-link" href="tell:+380503454423">
+                        <svg class="contact-link-item header-link" width="10px" height="16px">
+                            <use href="./images/sprite.svg#smartphone"></use>
+                        </svg>
+                        +38 (050) 345 44 23
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu__container">
+                <div class="mobile-nav">
+                    <picture>
+                        <!-- <source media="(min-width: 1200px)"
+                            srcset=".webp 1x, @2x.webp 2x"
+                            type="image/webp">
+                        <source media="(min-width: 1200px)"
+                            srcset=".jpg 1x, @2x.jpg 2x">
+
+                        <source media="(min-width: 768px)"
+                            srcset=".webp 1x, @2x.webp 2x"
+                            type="image/webp">
+                        <source media="(min-width: 768px)"
+                            srcset=".jpg 1x, @2x.jpg 2x"> -->
+
+                        <!-- <source media="(min-width: 280px)"
+                            srcset="./images/logo/footer-logo.webp 1x, ./images/logo/footer-logo@2x.webp 2x"
+                            type="image/webp"> -->
+                        <source media="(min-width: 280px)"
+                            srcset="./images/logo/footer-logo.png 1x, ./images/logo/footer-logo@2x.png 2x">
+
+                        <img src="#" alt="logo" />
+                    </picture>
+                    <button type="button" class="mobile-menu__btn btn data-modal-close" data-menu-open>
+                        <svg class="mobile-menu__icon data-menu-close">
+                            <use href="./images/sprite.svg#icon-close-btn_45x45"></use>
+                        </svg>
+                    </button>
+                    <div class="contact">
+                        <button type="button" class="contact-btn btn" data-menu-open>
+                            <svg class="contact-btn__icon">
+                                <use href="./images/sprite.svg#icon-phone_24x24"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="leng">
+
+                    </div>
+                </div>
+
+                <ul class="menu__list list">
+                    <li class="menu__item">
+                        <a href="" class="menu__link link">Головна</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link link">Послуги</a>
+                    <li class="menu__services-item">
+                        <a href="" class="services-menu__link link">3D Моделювання</a>
+                    </li>
+                    <li class="menu__services-item">
+                        <a href="" class="services-menu__link link">3D Сканування</a>
+                    </li>
+                    <li class="menu__services-item">
+                        <a href="" class="services-menu__link link">3D Друк</a>
+                    </li>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link link">Замовити</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link link">Контакти</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script src="./js/menu.js"></script>
+</body>
+
+</html>
