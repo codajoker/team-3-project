@@ -1,5 +1,8 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 ul, ol {
     margin-top: 0;
     margin-bottom: 0;
@@ -11,11 +14,16 @@ ul, ol {
 }
 
 .header__btn{
+<<<<<<< Updated upstream
     
     border: none;
     padding: 0;
     line-height: 0;
     cursor: pointer;
+=======
+    border: none;
+    padding: 0%;
+>>>>>>> Stashed changes
     list-style: none;
     width: 32px;
     height: 32px;
@@ -23,6 +31,7 @@ ul, ol {
 }
 
 
+<<<<<<< Updated upstream
 @media screen and (max-width: 1444px){
 
     .header {
@@ -178,6 +187,45 @@ ul, ol {
  }
 
 
+=======
+.header__btn-burger{
+    width: 32px;
+    height: 32px;
+    left: 144px;
+    top: 29px;
+}
+.page-header__conteiner {
+    display: flex;
+    align-items: center;
+    width: 278px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header__contacts {
+    display: none;
+}
+
+.header__btn-tel {
+    width: 24px;
+    height: 24px;
+   left: 222px;
+    top: 33px;
+    margin-right: 21px;
+}
+.log {
+    width: 101px;
+    height: 25px;
+    left: 20px;
+    top: 32px;
+   
+}
+.span_logo{
+    width: 101px;
+     height: 25px;
+     margin-right: 23px;
+}
+
+>>>>>>> Stashed changes
 .header__language-item{
 font-family: Caviar Dreams;
  font-weight: 700;
@@ -192,11 +240,16 @@ select{
 font-size: 14px;
 line-height: 1.29;
 color: #BDBDBD;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 -webkit-appearance: none;
 -moz-appearance: none;
 appearance: none;
     border: 0px;
 }
+<<<<<<< Updated upstream
 .header__btn-tel {
     width: 24px;
     height: 24px;
@@ -220,4 +273,6 @@ appearance: none;
         margin-right: 21px;    
     }
 }
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
