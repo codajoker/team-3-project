@@ -44,7 +44,7 @@ ul, ol {
     }
 
 
-@media screen and (max-width: 1444px){
+@media screen and (min-width: 1444px){
     .header {
         padding-top: 40px;
         padding-left: 80px;
@@ -85,7 +85,7 @@ ul, ol {
     height: 32px;
     fill: #487996;
 }
-@media screen and (max-width: 1444px){
+@media screen and (min-width: 1444px){
     .page-header__conteiner {
         display: flex;
         width: 1280px;
@@ -126,7 +126,7 @@ ul, ol {
 
  
   
- @media screen and (max-width: 1444px){
+ @media screen and (min-width: 1444px){
     .header__language  {
       margin-left: auto;
     }
@@ -139,7 +139,7 @@ ul, ol {
 }
 
 
-@media screen and (max-width: 1444px){
+@media screen and (min-width: 1444px){
     .span_logo {
         width: 192px;
         height: 48px;
