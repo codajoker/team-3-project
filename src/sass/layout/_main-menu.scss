@@ -1,0 +1,136 @@
+.btn {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}
+
+.mobile-menu {
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(#fff);
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* mobile nav */
+
+.mobile-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .logo {
+  width: 101px;
+  height: 24px;
+  background-image: url(../images/logo/footer-logo.png);
+} */
+
+.mobile-menu__btn {
+  padding: 0;
+  width: 45px;
+  height: 45px;
+}
+
+.mobile-menu__icon {
+  width: 24px;
+  height: 24px;
+  /* fill: ; */
+  transition: fill 250ms var(--accent-color);
+}
+
+.contact-btn {
+  padding: 0;
+  width: 24px;
+  height: 24px;
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+    /* fill: ; */
+    transition: fill 250ms var(--accent-color);
+  }
+}
+
+.leng {
+  width: 31px;
+  height: 18px;
+  /* background-image: url(../images/logo/eng.png); */
+  background-repeat: no-repeat;
+}
+
+.menu {
+  display: none;
+}
+
+.menu-contact {
+  display: none;
+}
+
+/* mobile nav end */
+
+/* mobile menu */
+
+.menu__item,
+.menu__services-item {
+  margin-bottom: 24px;
+}
+
+.menu__list {
+  font-family: Cera Pro;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  text-align: center;
+
+  /* text-shadow: #487996 1px 1px 0, #487996 -1px -1px 0, #487996 -1px 1px 0,
+    #487996 1px -1px 0; */
+  /* text-shadow: #487996 0 0 1px; */
+  /* border: 1px solid ; */
+}
+
+.menu__link,
+.services-menu__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #487996;
+  margin-bottom: 24px;
+}
+
+.services-menu__link::before {
+  display: block;
+  content: '';
+  width: 7px;
+  height: 7px;
+  margin-right: 10px;
+  background-image: url(../../images/bullet.jpg);
+}
+
+.menu__link:hover,
+.menu__link:focus {
+  color: #fff;
+  text-shadow: #487996 1px 1px 0, #487996 -1px -1px 0, #487996 -1px 1px 0, #487996 1px -1px 0;
+}
+.services-menu__link:hover,
+.services-menu__link:focus {
+  color: #fff;
+  text-shadow: #487996 1px 1px 0, #487996 -1px -1px 0, #487996 -1px 1px 0, #487996 1px -1px 0;
+}
+
+/* mobile menu end */
